@@ -13,7 +13,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "F:\\docusaurus\\DocusaurusBearPi\\sidebars.js",
+          "sidebarPath": "F:\\docusaurus\\WEB_BERARPI\\web_bearpi\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -21,28 +21,17 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "F:\\docusaurus\\DocusaurusBearPi\\src\\css\\custom.css"
+          "customCss": "F:\\docusaurus\\WEB_BERARPI\\web_bearpi\\src\\css\\custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
-      "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
-      },
       "items": [
         {
-          "type": "doc",
-          "docId": "intro",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
           "to": "/blog",
-          "label": "Blog",
+          "label": "BearPi Blog",
           "position": "left"
         },
         {

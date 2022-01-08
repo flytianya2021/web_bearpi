@@ -159,11 +159,6 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/','deb'),
-    exact: true
-  },
-  {
     path: '*',
     component: ComponentCreator('*')
   }

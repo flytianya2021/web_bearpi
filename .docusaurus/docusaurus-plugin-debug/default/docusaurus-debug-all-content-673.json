@@ -14,9 +14,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "F:\\docusaurus\\DocusaurusBearPi\\sidebars.js",
-          "contentPath": "F:\\docusaurus\\DocusaurusBearPi\\docs",
-          "contentPathLocalized": "F:\\docusaurus\\DocusaurusBearPi\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "F:\\docusaurus\\WEB_BERARPI\\web_bearpi\\sidebars.js",
+          "contentPath": "F:\\docusaurus\\WEB_BERARPI\\web_bearpi\\docs",
+          "contentPathLocalized": "F:\\docusaurus\\WEB_BERARPI\\web_bearpi\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -539,11 +539,6 @@
   },
   "docusaurus-plugin-content-pages": {
     "default": [
-      {
-        "type": "jsx",
-        "permalink": "/",
-        "source": "@site/src/pages/index.js"
-      },
       {
         "type": "mdx",
         "permalink": "/markdown-page",
