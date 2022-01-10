@@ -28,10 +28,21 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
+      "title": "My Site",
+      "logo": {
+        "alt": "My Site Logo",
+        "src": "img/logo.svg"
+      },
       "items": [
         {
+          "type": "doc",
+          "docId": "intro",
+          "position": "left",
+          "label": "Tutorial"
+        },
+        {
           "to": "/blog",
-          "label": "BearPi Blog",
+          "label": "Blog",
           "position": "left"
         },
         {
