@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: '小熊派 IoT',   
+    Svg: require('../../static/img/bearpi_st.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       物联网开发板，华为官方指定开发板。可实现智慧农业、智慧物流、智慧路灯等案例。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: '小熊派-鸿蒙-叔',
+    Svg: require('../../static/img/bearpi_hm_micro.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       鸿蒙开发板，全球首款可折叠开发板。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: '小熊派-鸿蒙-季',
+    Svg: require('../../static/img/bearpi_hm_nano.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        鸿蒙入门开发板
       </>
     ),
   },

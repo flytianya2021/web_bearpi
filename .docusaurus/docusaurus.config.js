@@ -1,6 +1,6 @@
 export default {
   "title": "BearPi 小熊派论坛",
-  "tagline": "鸿蒙学习开发板，欢迎广大鸿蒙开发爱好使用",
+  "tagline": "小熊派学习开发板，欢迎广大鸿蒙开发爱好使用",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -12,9 +12,8 @@ export default {
     [
       "classic",
       {
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+        "theme": {
+          "customCss": "F:\\docusaurus\\WEB_BERARPI\\web_bearpi\\src\\css\\custom.css"
         }
       }
     ]

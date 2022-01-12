@@ -1,0 +1,21 @@
+{
+  "permalink": "/blog/2022/01/11/bearpiHMmicro-blog-post1",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-01-11-bearpiHMmicro-blog-post1.md",
+  "source": "@site/blog/2022-01-11-bearpiHMmicro-blog-post1.md",
+  "title": "bearpiHMmicro-blog-post1",
+  "description": "",
+  "date": "2022-01-11T00:00:00.000Z",
+  "formattedDate": "January 11, 2022",
+  "tags": [],
+  "readingTime": 0,
+  "truncated": false,
+  "authors": [],
+  "prevItem": {
+    "title": "bearpiHMmicro-blog-post",
+    "permalink": "/blog/2022/01/11/bearpiHMmicro-blog-post"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

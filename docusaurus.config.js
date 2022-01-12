@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BearPi 小熊派论坛',
-  tagline: '鸿蒙学习开发板，欢迎广大鸿蒙开发爱好使用',
+  tagline: '小熊派学习开发板，欢迎广大鸿蒙开发爱好使用',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -27,15 +27,15 @@ const config = {
         //   // Please change this to your repo.
         //   editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        // theme: {
-        //   customCss: require.resolve('./src/css/custom.css'),
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       }
       ),
     ],
@@ -47,8 +47,8 @@ const config = {
       navbar: {
         title: 'BEARPI 小熊派社区',
         logo: {
-         // alt: 'BearPi Logo',
-          src: 'img/bearpilogo.png',  
+          // /alt: 'BearPi Logo',
+          src: 'img/bearpilogo.png',   
         },
         items: [
           // {
