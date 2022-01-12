@@ -1,6 +1,6 @@
 export default {
   "title": "BearPi 小熊派论坛",
-  "tagline": "小熊派学习开发板，欢迎广大鸿蒙开发爱好使用",
+  "tagline": "小熊派学习开发板，欢迎嵌入式开发爱好使用",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
